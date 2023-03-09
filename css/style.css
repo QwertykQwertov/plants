@@ -1,0 +1,671 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  max-width: 1440px;
+  /* width:100vw; */
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  height: 134px;
+  /* background-color: #EDF2EC; */
+}
+
+.navbar {
+  width: 1440px;
+  height: 134px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #edf2ec;
+}
+
+.navbar-wrapper {
+  width: 1220px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.logo p {
+  font-family: "Inika", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.menu li {
+  display: inline;
+  padding-left: 46px;
+}
+
+.menu-item {
+  font-family: "Inika", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: black;
+}
+
+.active {
+  font-weight: 700;
+  color: #e06733;
+}
+
+.welcome {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  background: #edf2ec;
+}
+
+.welcome-wrapper {
+  padding: 62px;
+  width: 1222px;
+  height: 407.36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-wrapper div {
+  width: 50%;
+}
+
+.welcome-image img {
+  width: 448.8px;
+  height: 407.36px;
+}
+
+.welcome-text {
+  padding-left: 125px;
+}
+
+.welcome-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+
+.welcome-title span {
+  color: #499a18;
+}
+
+.welcome-desc {
+  margin: 0px auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+}
+
+.welcome-btn {
+  width: 158px;
+  height: 44px;
+  margin-top: 52px;
+  border: 2px solid #e06733;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #eef2ec;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* ABOUT */
+.about {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-wrapper {
+  padding: 128px 62px;
+  width: 1222px;
+  height: 410px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-wrapper div {
+  width: 50%;
+}
+
+.about-image {
+  display: contents;
+  /* justify-content: right; */
+}
+
+.about-image img {
+  margin-top: -34px;
+  width: 464px;
+  height: 479px;
+}
+
+.about-title {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+}
+
+.about-title span {
+  color: #e06733;
+}
+
+.about-desc {
+  margin: 39px auto;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+
+/* SERVICES */
+.service {
+  width: 1440px;
+  height: 1300px;
+
+  background: #edf2ec;
+}
+
+.service-wrapper {
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 1222px;
+}
+
+.service-wrapper-header {
+  width: 1007px;
+  height: 94px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-wrapper-header-title {
+  margin-top: 0;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+
+  color: #499a18;
+}
+
+.service-wrapper-header-btns {
+  width: 559px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 29px;
+}
+
+.service-btn {
+  box-sizing: border-box;
+  display: inline;
+
+  width: 161px;
+  height: 50px;
+
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  background-color: #eef2ec;
+
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e06733;
+}
+
+.service-wrapper-content {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 330px;
+  height: 450px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.service-card-img {
+  width: 329px;
+  height: 350px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card-dsc {
+  width: 330px;
+  height: 100px;
+  margin-top: -4px;
+
+  border: 1px solid #e3e1d5;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.service-card-title {
+  margin: 10px auto 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #e06733;
+}
+
+.service-card-text {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #717171;
+}
+
+/* Prices */
+
+.prices {
+  width: 1440px;
+  height: 558px;
+}
+
+.prices-wrapper {
+  margin: 0 auto;
+  padding-top: 38px;
+  width: 1222px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices-left-title {
+  margin-top: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #000000;
+}
+
+.prices-left-btns-border {
+  width: 332px;
+  height: 282px;
+  margin-top: 62px;
+
+  border: 1px solid #e3e1d5;
+  border-radius: 20px;
+}
+
+.prices-left-btns-wrapper {
+  margin: 34px;
+  width: 250px;
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prices-left-btn {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #edf2ec;
+  border: none;
+  border-radius: 20px;
+}
+
+.prices-left-btn {
+  padding-left: 40px;
+  padding-right: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+
+.prices-left-btn img {
+  height: 20px;
+  margin-right: 40px;
+  float: right;
+}
+
+.prices-right {
+  text-align: end;
+}
+
+.prices-right-title {
+  margin-top: 0;
+  margin-bottom: 38px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: right;
+
+  color: #000000;
+}
+
+.prices-right-title span {
+  color: #499a18;
+}
+
+.prices-right-btn {
+  width: 162px;
+  height: 50px;
+  margin-top: 4px;
+
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #e06733;
+
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.prices-right-img {
+  margin-top: 39px;
+}
+
+/* Contacts */
+.contacts {
+  width: 1440px;
+  height: 551px;
+  background-color: #edf2ec;
+  position: relative;
+}
+
+.contacts-wrapper {
+  margin: 0 auto;
+  width: 1222px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-left-image {
+  width: 400px;
+  height: 496.99px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.contact-center-header {
+  padding-top: 60px;
+  margin: 0;
+  text-align: center;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  color: #499a18;
+}
+
+#city {
+  width: 450px;
+  height: 50px;
+  appearance: none;
+  overflow: hidden;
+  background: url("../src/accordion_btn_dark.svg") no-repeat right, #d6e7d2;
+  background-position: bottom 50% right 35px;
+
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px;
+  margin: 37px auto;
+  padding-left: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+
+  color: #717171;
+}
+footer {
+  width: 1440px;
+}
+/* Footer */
+.footer-wrapper {
+  margin: 32px auto;
+  width: 1222px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-group {
+  width: 30%;
+}
+
+.footer-social {
+  padding-top: 16px;
+  display: flex;
+  justify-content: right;
+}
+
+.footer-group-text {
+  display: flex;
+}
+
+.footer-group p {
+  margin-right: 21px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.footer-center-text {
+  margin-left: 78px;
+}
+
+.footer-group a img {
+  height: 32px;
+  width: 32px;
+  margin-left: 20px;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  /* header */
+  header {
+    height: 117px;
+  }
+
+  .navbar {
+    width: 768px;
+    height: 117px;
+  }
+
+  .navbar-wrapper {
+    width: 668px;
+    height: 47px;
+    margin-top: -4px;
+  }
+
+  .menu li {
+    padding-left: 43px;
+  }
+
+  /* welcome */
+
+  .welcome {
+    width: 768px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .welcome-wrapper {
+    padding: 0;
+    width: 668px;
+    height: 420px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .welcome-wrapper div {
+    width: 50%;
+  }
+
+  .welcome-image {
+    display: flex;
+    justify-content: end;
+  }
+
+  .welcome-image img {
+    padding-top: 40px;
+    width: 280px;
+    height: 254px;
+  }
+
+  .welcome-text {
+    padding-left: 0;
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .welcome-title {
+    margin-top: 40px;
+    margin-bottom: 31px;
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .welcome-desc {
+    margin: 0px 4px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .welcome-btn {
+    margin-top: 37px;
+  }
+  /* about */
+  .about {
+    width: 100%;
+  }
+
+  .about-wrapper {
+    padding: 0px 50px;
+    width: 100vw;
+    height: 783px;
+    flex-direction: column;
+    justify-content: normal;
+  }
+  .about-wrapper div {
+    width: 100vw;
+  }
+  .about-title {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+  }
+  .about-desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 50px;
+  }
+  .about-image img {
+    width: 250px;
+    height: 258px;
+    margin: 18px auto;
+  }
+  /* service */
+  .service {
+    width: 100vw;
+    height: 1780px;
+  }
+  .service-wrapper {
+    max-width: 668px;
+    padding-top: 60px;
+  }
+  .service-wrapper-header {
+    display: block;
+  }
+  .service-wrapper-header-title {
+    font-size: 35px;
+    line-height: 46px;
+  }
+  .service-wrapper-header-btns {
+    margin-top: 42px;
+  }
+  .service-wrapper-content {
+    margin-top: 130px;
+  }
+  .service-card {
+    width: 280px;
+    margin-bottom: 38px;
+  }
+  .service-card-img {
+    width: 100%;
+  }
+  .card-dsc {
+    width: 100%;
+    margin-top: -7px;
+  }
+  .service-card-title{
+    margin: 12px auto 0px;
+  }
+  .service-card-text{
+    margin: 7px;
+  }
+}
